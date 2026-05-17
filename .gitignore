@@ -1,0 +1,5 @@
+tickets/
+incident_log.csv
+__pycache__/
+*.pyc
+.env

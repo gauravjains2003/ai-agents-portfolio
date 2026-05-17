@@ -1,0 +1,25 @@
+╔══════════════════════════════════════════════════════╗
+║           IT TRIAGE AGENT — AUTO TICKET              ║
+╚══════════════════════════════════════════════════════╝
+  Ticket ID   : INC20260517144232
+  Timestamp   : 2026-05-17 14:42:32
+  Priority    : P1
+──────────────────────────────────────────────────────
+  INCIDENT DESCRIPTION
+  CEO is unable to access the dashboard, system is slow
+──────────────────────────────────────────────────────
+  CLASSIFICATION
+  ▸ ACCESS [LOW]
+    Keywords  : access
+    Route to  : IAM Team
+    Action    : Check AD sync, SSO config, and user account status
+  ▸ PERFORMANCE [LOW]
+    Keywords  : slow
+    Route to  : Performance & Infra Team
+    Action    : Check CPU, memory, DB query times and network latency
+──────────────────────────────────────────────────────
+  ⚠ ESCALATION TRIGGERED
+  Reason      : VIP user impacted
+  Matched on  : ceo
+  Priority bumped to P1
+══════════════════════════════════════════════════════

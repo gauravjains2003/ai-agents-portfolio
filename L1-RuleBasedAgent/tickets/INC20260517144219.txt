@@ -1,0 +1,21 @@
+╔══════════════════════════════════════════════════════╗
+║           IT TRIAGE AGENT — AUTO TICKET              ║
+╚══════════════════════════════════════════════════════╝
+  Ticket ID   : INC20260517144219
+  Timestamp   : 2026-05-17 14:42:19
+  Priority    : P1
+──────────────────────────────────────────────────────
+  INCIDENT DESCRIPTION
+  All users in production cannot login since morning
+──────────────────────────────────────────────────────
+  CLASSIFICATION
+  ▸ ACCESS [LOW]
+    Keywords  : login
+    Route to  : IAM Team
+    Action    : Check AD sync, SSO config, and user account status
+──────────────────────────────────────────────────────
+  ⚠ ESCALATION TRIGGERED
+  Reason      : Mass user impact detected
+  Matched on  : all users
+  Priority bumped to P1
+══════════════════════════════════════════════════════

@@ -1,0 +1,4 @@
+TicketID,Timestamp,Priority,Categories,Escalated,Description
+INC20260517144155,2026-05-17 14:41:55,P3,"outage, data, batch",NO,Batch job failed and data is missing from the report
+INC20260517144219,2026-05-17 14:42:19,P1,access,YES,All users in production cannot login since morning
+INC20260517144232,2026-05-17 14:42:32,P1,"access, performance",YES,"CEO is unable to access the dashboard, system is slow"

@@ -1,0 +1,24 @@
+╔══════════════════════════════════════════════════════╗
+║           IT TRIAGE AGENT — AUTO TICKET              ║
+╚══════════════════════════════════════════════════════╝
+  Ticket ID   : INC20260517144155
+  Timestamp   : 2026-05-17 14:41:55
+  Priority    : P3
+──────────────────────────────────────────────────────
+  INCIDENT DESCRIPTION
+  Batch job failed and data is missing from the report
+──────────────────────────────────────────────────────
+  CLASSIFICATION
+  ▸ DATA [MEDIUM]
+    Keywords  : data, missing
+    Route to  : Data & Integration Team
+    Action    : Check feed logs, reconciliation reports and source system
+  ▸ BATCH [MEDIUM]
+    Keywords  : batch, job
+    Route to  : Batch Operations Team
+    Action    : Check job scheduler, logs and dependencies
+  ▸ OUTAGE [LOW]
+    Keywords  : failed
+    Route to  : L2 Production Support
+    Action    : Trigger incident bridge, notify stakeholders immediately
+══════════════════════════════════════════════════════

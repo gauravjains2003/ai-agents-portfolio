@@ -1,0 +1,18 @@
+{
+  "ticket_id": "RCA20260528162923",
+  "incident": "CHECK_FAREAST job failed with error no file found",
+  "analysis": {
+    "summary": "CHECK_FAREAST job failed due to missing input file",
+    "root_cause": "Missing or deleted input file",
+    "confidence": "HIGH",
+    "priority": "P2",
+    "affected_area": "Fareast database ETL process",
+    "immediate_action": "Restore the missing file from backup and re-run the job",
+    "escalate_to": "Database team for verification of backup integrity",
+    "additional_steps": [
+      "Review log files to identify when the file went missing",
+      "Verify that input file is being generated correctly by source system"
+    ],
+    "prevention": "Regularly monitor backup completeness and implement automated failover procedures"
+  }
+}

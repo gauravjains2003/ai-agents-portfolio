@@ -1,0 +1,19 @@
+{
+  "ticket_id": "RCA20260528161730",
+  "incident": "ORA-12541 errors on database and batch jobs failing",
+  "analysis": {
+    "summary": "Database connectivity issue causing batch job failures due to ORA-12541 error",
+    "root_cause": "Network connectivity problem between database server and the application server",
+    "confidence": "HIGH",
+    "priority": "P1",
+    "affected_area": "Database (ORA-12541) and Batch Jobs",
+    "immediate_action": "Check network connectivity between DB server and App server and attempt to restart listener service on DB server",
+    "escalate_to": "Network Operations Team (NT)",
+    "additional_steps": [
+      "Verify database connection strings and firewall rules for application servers",
+      "Run SQL*Net trace on database server to capture error logs",
+      "Restart database server if connectivity issue persists"
+    ],
+    "prevention": "Regularly review and update network configuration, ensure up-to-date listener service patches and implement database connection string validation checks in batch jobs"
+  }
+}

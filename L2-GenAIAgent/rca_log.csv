@@ -1,0 +1,5 @@
+TicketID,Timestamp,Priority,Confidence,AffectedArea,EscalateTo,Incident
+RCA20260528161448,2026-05-28 16:14:48,P1,HIGH,Login Module of Application Server,DBA Team and Network Team,Users cannot login to the application since 9am
+RCA20260528161730,2026-05-28 16:17:30,P1,HIGH,Database (ORA-12541) and Batch Jobs,Network Operations Team (NT),ORA-12541 errors on database and batch jobs failing
+RCA20260528161844,2026-05-28 16:18:44,P1,HIGH,Web Application Server (WAS),Cloud Operations Team,"Memory usage at 98% on production server, application crashing"
+RCA20260528162923,2026-05-28 16:29:23,P2,HIGH,Fareast database ETL process,Database team for verification of backup integrity,CHECK_FAREAST job failed with error no file found

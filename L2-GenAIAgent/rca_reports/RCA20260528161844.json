@@ -1,0 +1,19 @@
+{
+  "ticket_id": "RCA20260528161844",
+  "incident": "Memory usage at 98% on production server, application crashing",
+  "analysis": {
+    "summary": "Production server memory usage exceeded threshold causing application crash",
+    "root_cause": "Insufficient memory allocation for database queries",
+    "confidence": "HIGH",
+    "priority": "P1",
+    "affected_area": "Web Application Server (WAS)",
+    "immediate_action": "Increase production server RAM or reduce memory-intensive processes",
+    "escalate_to": "Cloud Operations Team",
+    "additional_steps": [
+      "Review database query optimization and indexing for performance improvement",
+      "Implement caching mechanisms to reduce database queries",
+      "Monitor system resource utilization and adjust thresholds as needed"
+    ],
+    "prevention": "Regularly review and optimize database queries, implement caching, and monitor system resources"
+  }
+}

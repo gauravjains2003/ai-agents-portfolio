@@ -17,7 +17,7 @@ agentic workflows with memory, tools, and planning.
 ### 🔄 L2 — GenAI Agents (Ollama + llama3.1)
 | Project | Description | Status |
 |---|---|---|
-| Incident RCA Generator | Paste logs → get root cause analysis | In Progress |
+| Incident RCA Generator | Paste logs → get root cause analysis | Complete |
 
 ### 🔜 L3 — Agentic AI
 | Project | Description | Status |

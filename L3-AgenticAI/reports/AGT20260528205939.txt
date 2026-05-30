@@ -1,0 +1,17 @@
+
+╔══════════════════════════════════════════════════════╗
+║      L3 AGENTIC AI — INCIDENT REPORT                 ║
+╚══════════════════════════════════════════════════════╝
+  Ticket ID : AGT20260528205939
+  Generated : 2026-05-28 20:59:39
+──────────────────────────────────────────────────────
+Step 1: read_log_file - ERROR: File not found at /var/logs/sample_app.log
+Step 2: read_log_file - ERROR: File not found at /home/user/app_logs/sample_app.log
+Step 3: search_errors - No errors found.
+Step 4: search_errors - Found 1 errors:
+Line 1: ORA-12541 OR Connection refused
+Step 5: get_error_timeline - No timestamped errors found.
+Step 6: check_knowledge_base - KB Match [ORA-12541]: TNS no listener. Fix: Run 'lsnrctl start'. Team: DBA
+Step 7: check_knowledge_base - KB Match [CONNECTION REFUSED]: Service down. Fix: Check service status and firewall. Team: Infra
+Step 8: generate_report - Report saved to reports/AGT20260528205939.txt
+══════════════════════════════════════════════════════

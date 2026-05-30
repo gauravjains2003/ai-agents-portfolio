@@ -1,0 +1,15 @@
+{
+  "ticket_id": "RCA20260528195340",
+  "incident": "Hi - How are you",
+  "analysis": {
+    "summary": "Spam incident reported on chat channel",
+    "root_cause": "User error",
+    "confidence": "HIGH",
+    "priority": "P3",
+    "affected_area": "Chat support system",
+    "immediate_action": "Remove spam user from chat",
+    "escalate_to": "",
+    "additional_steps": [],
+    "prevention": "Implement chat filtering and monitoring"
+  }
+}

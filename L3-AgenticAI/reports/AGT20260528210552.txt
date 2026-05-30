@@ -1,0 +1,9 @@
+
+╔══════════════════════════════════════════════════════╗
+║      L3 AGENTIC AI — INCIDENT REPORT                 ║
+╚══════════════════════════════════════════════════════╝
+  Ticket ID : AGT20260528210552
+  Generated : 2026-05-28 21:05:52
+──────────────────────────────────────────────────────
+ORA-12541 due to TNS no listener fixed by DBA team running lsnrctl start; OutOfMemory error resolved by increasing JVM heap to -Xmx4g as recommended by App Team
+══════════════════════════════════════════════════════

@@ -1,0 +1,18 @@
+{
+  "ticket_id": "RCA20260528195021",
+  "incident": "users are not able to login to website since monday morning",
+  "analysis": {
+    "summary": "Users unable to login to website due to authentication issue",
+    "root_cause": "Incorrectly configured Apache mod_auth_ldap module",
+    "confidence": "HIGH",
+    "priority": "P1",
+    "affected_area": "Authentication Service",
+    "immediate_action": "Restart Apache service on all web servers",
+    "escalate_to": "Identity Management Team",
+    "additional_steps": [
+      "Verify LDAP connection settings and credentials",
+      "Check mod_auth_ldap configuration files for errors"
+    ],
+    "prevention": "Regularly review and update mod_auth_ldap configuration to ensure it aligns with changing LDAP infrastructure"
+  }
+}

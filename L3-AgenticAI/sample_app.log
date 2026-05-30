@@ -1,0 +1,14 @@
+2026-05-28 01:45:00 INFO  Application started successfully
+2026-05-28 01:45:01 INFO  Database connection pool initialized (size=10)
+2026-05-28 02:00:00 INFO  Batch job DAILY_RECONCILIATION started
+2026-05-28 02:03:22 ERROR Database connection lost: ORA-12541 TNS no listener
+2026-05-28 02:03:23 ERROR Batch job DAILY_RECONCILIATION failed after 3 retries
+2026-05-28 02:03:24 FATAL Connection refused on port 1521 - database unreachable
+2026-05-28 02:05:00 ERROR User login attempt failed - Connection refused to auth service
+2026-05-28 02:05:45 ERROR OutOfMemory: Java heap space in SessionManager
+2026-05-28 02:06:00 ERROR 142 concurrent users affected by auth service failure
+2026-05-28 02:10:05 ERROR Reconnection timeout after 5000ms
+2026-05-28 02:15:00 ERROR ORA-12541 persists - escalation required
+2026-05-28 02:45:00 INFO  Database listener restarted by DBA team
+2026-05-28 02:45:30 INFO  Connection pool re-established
+2026-05-28 03:00:00 INFO  All systems operational
